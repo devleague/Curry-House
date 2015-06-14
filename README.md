@@ -99,12 +99,12 @@ var sumWith4and5 = add4and5(6); // 15
 
 `calculator` should return a function that accepts two arguments `op2` and `op1`, and returns a result based on the two arguments.
 
-- if `operation` is `'+'` or `'add'`, return a function that returns the sum of `op1` added by `op2`
-- if `operation` is `'-'` or `'subtract'`, return a function that returns the difference of `op1` subtracted by `op2`
-- if `operation` is `'*'` or `'multiply'`, return a function that returns the prouduct of `op1` multiplied by `op2`
-- if `operation` is `'/'` or `'divide'`, return a function that returns the quotient of `op1` divided by `op2`
-- if `operation` is `'%'` or `'modulo'`, return a function that returns the remainder of `op1` divided by `op2`
-- if `operation` is `'^'` or `'power of'`, return a function that returns the exponentiation of `op1` to the power of `op2`
+- if `operation` is `'+'` or `'add'`, returns the sum of `op1` added by `op2`
+- if `operation` is `'-'` or `'subtract'`, returns the difference of `op1` subtracted by `op2`
+- if `operation` is `'*'` or `'multiply'`, returns the prouduct of `op1` multiplied by `op2`
+- if `operation` is `'/'` or `'divide'`, returns the quotient of `op1` divided by `op2`
+- if `operation` is `'%'` or `'modulo'`, returns the remainder of `op1` divided by `op2`
+- if `operation` is `'^'` or `'power of'`, returns the exponentiation of `op1` to the power of `op2`
 
 
 ## add5
@@ -160,7 +160,7 @@ _"99 divided by 5 has remainder 4"_
 
 ## pow3
 
-`pow3` is a variable with a value set to the function returned by currying the function returned by invoking `calculator` with an argument `'^'`, and binding the curried functions first argument to 5
+`pow3` is a variable with a value set to the function returned by currying the function returned by invoking `calculator` with an argument `'^'`, and binding the curried functions first argument to 3
 
 expected result
 

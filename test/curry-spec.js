@@ -2,6 +2,7 @@ var chai = require('chai');
 chai.should();
 
 var curryHouse = require('../lib/curry-house');
+console.log(curryHouse);
 
 describe('Curry House', function() {
   
@@ -80,7 +81,7 @@ describe('Curry House', function() {
   describe('add4and5', function() {
     var add4and5 = curryHouse.add4and5;
 
-    it('should be a curried concat function', function() {
+    it('should be a curried add function', function() {
       add4and5(6).should.equal(15);
       add4and5(16).should.equal(25);
     });
