@@ -22,8 +22,7 @@ mocha -w --bail
 
 ## Functions
 
-Do all work in `lib/curry-house.js`  
-Resist the urge to open `test/curry-spec.js` until the end.
+Do all work in `lib/curry-house.js`
 
 ### calculate
 
