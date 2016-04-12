@@ -60,7 +60,7 @@ describe('Curry House', function() {
       it('should generate random numbers from start to end (inclusive)', function() {
         var to50 = random(50);
         for (var i = 0; i < 100; i++) {
-          to50.to(60).should.be.within(50,60);
+          to50.toInclude(60).should.be.within(50,60);
         }
       });
       
